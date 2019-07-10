@@ -37,7 +37,7 @@ class LexGUI:
         #self.tab3 = ttk.Frame(self.tabControl)
         #self.tab4 = ttk.Frame(self.tabControl)
 
-        self.tabControl.add(self.tab1, text = 'Write MongoDB')
+        self.tabControl.add(self.tab1, text = 'Write to MySQL')
         #self.tabControl.add(self.tab2, text = 'Clean')      
         #self.tabControl.add(self.tab3, text = 'Extract')
         #self.tabControl.add(self.tab4, text = 'Upload')
