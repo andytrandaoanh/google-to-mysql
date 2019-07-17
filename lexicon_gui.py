@@ -145,7 +145,7 @@ class LexGUI:
 
     def createTab3(self):
 
-        self.labelFrame3 = ttk.LabelFrame(self.tab3, text= 'Select output directory:')
+        self.labelFrame3 = ttk.LabelFrame(self.tab3, text= 'Select directory for log file:')
         self.labelFrame3.grid(column=0, row=0, padx = 20, pady = 20)
 
         self.filepath2 = tk.StringVar()
